@@ -1,0 +1,91 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+    <LinearLayout
+            android:id="@+id/languageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/themeLayout">
+
+        <TextView
+                android:id="@+id/languageTitle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/language_view"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+        <Spinner
+                android:id="@+id/languageSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:entries="@array/language_entries"
+                android:prompt="@string/select_language"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/themeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+                android:id="@+id/themeTitle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/theme_view"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+        <Spinner
+                android:id="@+id/themeSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:entries="@array/theme_entries"
+                android:prompt="@string/select_theme"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.878">
+        <Button
+                android:text="@string/save_setting_view"
+                android:layout_width="6dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/setting_save"
+                android:layout_weight="1"
+                android:background="@drawable/edge"
+                tools:layout_editor_absoluteY="433dp" tools:layout_editor_absoluteX="19dp"/>
+        <Button
+                android:text="@string/return_home_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/setting_cancel"
+                android:layout_weight="1"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/edge"
+                tools:layout_editor_absoluteY="550dp" tools:layout_editor_absoluteX="152dp"/>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

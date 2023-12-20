@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+                android:id="@+id/collection"
+                android:title="@string/collection"/>
+        <item
+                android:id="@+id/unfavorite"
+                android:title="@string/unfavorite"/>
+    </group>
+</menu>

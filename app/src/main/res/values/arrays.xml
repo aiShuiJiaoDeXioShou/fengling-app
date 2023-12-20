@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- arrays.xml -->
+<resources>
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>中文</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>zh</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>风铃</item>
+        <item>风铃2</item>
+        <item>风铃3</item>
+        <item>风铃4</item>
+        <item>风铃5</item>
+    </string-array>
+
+</resources>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="fenglingDB"></dbname>
+    <version value="4"></version>
+    <list>
+        <mapping class="com.linghe.fengling.entity.User"></mapping>
+        <mapping class="com.linghe.fengling.entity.Theme"></mapping>
+        <mapping class="com.linghe.fengling.entity.Setting"></mapping>
+        <mapping class="com.linghe.fengling.entity.Song"></mapping>
+        <mapping class="com.linghe.fengling.entity.Collection"></mapping>
+    </list>
+</litepal>

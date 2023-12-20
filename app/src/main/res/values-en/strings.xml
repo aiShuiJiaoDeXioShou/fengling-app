@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Wind Chime</string>
+    <string name="reg_appname">Wind Chime Registration</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="password">Password:</string>
+    <string name="username">Username:</string>
+    <string name="pre_music">Previous Track</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="next_music">Next Track</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="submit">Submit</string>
+    <string name="phone_view">Phone Number</string>
+    <string name="password_view">Password</string>
+    <string name="login_view">Login</string>
+    <string name="registered_view">Register</string>
+    <string name="forgot_password_view">Forgot Password</string>
+    <string name="sex_view">Gender</string>
+    <string name="emil_view">Email</string>
+    <string name="ok_password_view">Confirm Password</string>
+    <string name="scan_music_view">Scan Music</string>
+    <string name="search_view">Search</string>
+    <string name="menu_view">Menu</string>
+    <string name="online_music_view">Online Music</string>
+    <string name="my_playlist_view">My Playlist</string>
+    <string name="change_bg_view">Change Homepage Background</string>
+    <string name="singer_view">Singer</string>
+    <string name="change_theme">Change Theme Color</string>
+    <string name="change_setting">Settings</string>
+    <string name="song_information">Song Information</string>
+    <string name="song">Song</string>
+    <string name="select_language">Select Language</string>
+    <string name="select_theme">Select Theme</string>
+    <string name="language_view">Language</string>
+    <string name="theme_view">Theme</string>
+    <string name="music_test_title_view">Dragon Clan</string>
+    <string name="jianlan_view">Jiangnan</string>
+    <string name="lumingfei_view">Lu Mingfei</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Local</string>
+    <string name="title_dashboard">Favorites</string>
+    <string name="title_notifications">Online</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="collection">Collection</string>
+    <string name="unfavorite">Unfavorite</string>
+    <string name="return_home_view">Return Home</string>
+    <string name="save_setting_view">Save Setting</string>
+    <string name="no_songs_played">no songs played</string>
+    <string name="exit_login_view">exit login</string>
+</resources>
+
